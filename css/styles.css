@@ -1,8 +1,8 @@
 #thumbnails{
   background-color: beige;
-  padding-top: 10px;
+  padding: 20px;
   align-items: center;
 }
-p.margin-none{
+.margin-none{
   margin-bottom: 0px;
 }
