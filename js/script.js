@@ -8,11 +8,6 @@ function Pizza(size, toppings, crust, total, orderNo){
 
 }
 
-//Create instances of the Pizza object
-let firstPizza = new Pizza("large", "pepperoni", "crispy", 1200, 1);
-let secondPizza = new Pizza("medium", "cheese", "gluten-free", 800, 2);
-let thirdPizza = new Pizza("small", "onions", "soft", 500, 3);
-
 //Create prototype
 Pizza.prototype.myOrderDetails = function(){
   console.log("Thank you! Your order for a "+ this.size + " pizza with " + this.toppings + " toppings on a " + this.crust + " crust has been received.")
