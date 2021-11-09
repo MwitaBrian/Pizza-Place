@@ -9,6 +9,6 @@
 .row{
   margin-bottom: 10px;
 }
-.pizza-crust{
+.pizza-crust, .pizza-toppings{
   margin-top: 5px;
 }

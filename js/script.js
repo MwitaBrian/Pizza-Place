@@ -26,5 +26,7 @@ $(document).ready(function(){
     var crustOfPizza = $('.pizza-crust option:selected').val();
 
     var total = parseInt(sizeOfPizza) + parseInt(toppingsOfPizza) + parseInt(crustOfPizza);
+    var order = 1;
+    var grandTotal = 0;
   });
 });
