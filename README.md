@@ -1,6 +1,6 @@
 # Mwita's Pizza Place
 
-Delani Studio is a top class studio for start-ups and businesses in Kenya. We offer services of design, product development and product management. This studio web application is designed using jQuery, Javascript, HTML & CSS technologies.
+Mwita's Pizza Place is a web app for a fictional pizza house. This web app allows users to place pizza orders with a variety of sizes to choose from with different options of toppings and crust. The user can also request for delivery of the pizza and can order as many pizzas as he or she wishes. This web application is designed using jQuery, Javascript, HTML & CSS technologies.
 
 ## Technologies Used
 
