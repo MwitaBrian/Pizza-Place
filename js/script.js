@@ -17,3 +17,12 @@ let thirdPizza = new Pizza("small", "onions", "soft", 500, 3);
 Pizza.prototype.myOrderDetails = function(){
   console.log("Thank you! Your order for a "+ this.size + " pizza with " + this.toppings + " toppings on a " + this.crust + " crust has been received.")
 }
+
+//User Interface Logic
+$(document).ready(function(){
+  $('button#orderButton').click(function(){
+    var sizeOfPizza = $('.pizza-size option:selected').val();
+    var toppingsOfPizza = $('.pizza-toppings option:selected').val();
+    var crustOfPizza = $('.pizza-crust option:selected').val();
+  });
+});
