@@ -4,8 +4,11 @@
   align-items: center;
 }
 .margin-none{
-  margin-bottom: 0px;
+  margin-bottom: 1px;
 }
 .row{
   margin-bottom: 10px;
+}
+.pizza-crust{
+  margin-top: 5px;
 }
