@@ -19,8 +19,8 @@ Pizza.prototype.myOrderDetails = function(){
 }
 
 //User Interface Logic
-$(document).ready(function(){
-  $('button#orderButton').click(function(){
+$(document).ready(function() {
+  $('button#orderDetails').click(function(){
     var sizeOfPizza = $('.pizza-size option:selected').val();
     var toppingsOfPizza = $('.pizza-toppings option:selected').val();
     var crustOfPizza = $('.pizza-crust option:selected').val();
@@ -28,5 +28,13 @@ $(document).ready(function(){
     var total = parseInt(sizeOfPizza) + parseInt(toppingsOfPizza) + parseInt(crustOfPizza);
     var order = 1;
     var grandTotal = 0;
+
+    $('#orderNo').html(order);
+    $('#size').html(sizeOfPizza);
+    $('#toppings').html(toppingsOfPizza);
+    $('#crust').html(crustOfPizza);
+    $('#total').html(total);
+
   });
+
 });
